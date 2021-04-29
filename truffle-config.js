@@ -2,11 +2,6 @@ require('dotenv').config();
 
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 
-console.log(new HDWalletProvider({
-    mnemonic: process.env.MNEMONIC,
-    providerOrUrl: 'https://rinkeby.infura.io/v3/' + process.env.INFURA_PROJECT_ID
-}));
-
 module.exports = {
     networks: {
         development: {
