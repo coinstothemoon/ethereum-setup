@@ -10,16 +10,15 @@
 	"devDependencies": {},
 	"scripts": {
 		"deploy-rinkeby": "truffle compile && truffle deploy --reset --network rinkeby",
-	  	"deploy-mainnet": "truffle compile && truffle deploy --reset --network mainnet"
+		"deploy-mainnet": "truffle compile && truffle deploy --reset --network mainnet"
 	},
 	"repository": {
-	  	"type": "git",
-	  	"url": "git+https://github.com/coinstothemoon/ethereum-setup.git"
+		"type": "git",
+		"url": "git+https://github.com/coinstothemoon/ethereum-setup.git"
 	},
 	"author": "",
 	"license": "ISC",
 	"bugs": {
 		"url": "https://github.com/coinstothemoon/ethereum-setup/issues"
 	}
-  }
-  
+}

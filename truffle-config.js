@@ -15,11 +15,10 @@ module.exports = {
                 return new HDWalletProvider({
                     mnemonic: process.env.MNEMONIC,
                     providerOrUrl: 'https://rinkeby.infura.io/v3/' + process.env.INFURA_PROJECT_ID,
-                    chainId: 4,
+                    chainId: 4
                 });
             },
-            network_id: 4,
-            skipDryRun: true
+            network_id: 4
         },
 
         mainnet: {
