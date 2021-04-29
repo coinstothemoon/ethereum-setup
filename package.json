@@ -1,0 +1,25 @@
+{
+	"name": "ethereum-setup",
+	"version": "1.0.0",
+	"description": "",
+	"dependencies": {
+		"@openzeppelin/contracts": "^4.0.0",
+		"@truffle/hdwallet-provider": "^1.3.0",
+		"dotenv": "^8.2.0"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"deploy-rinkeby": "truffle compile && truffle deploy --reset --network rinkeby",
+	  	"deploy-mainnet": "truffle compile && truffle deploy --reset --network mainnet"
+	},
+	"repository": {
+	  	"type": "git",
+	  	"url": "git+https://github.com/coinstothemoon/ethereum-setup.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/coinstothemoon/ethereum-setup/issues"
+	}
+  }
+  
